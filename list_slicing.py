@@ -8,8 +8,13 @@ cars[2]="Renault"
 # 2nd option
 print(cars)
 cars.append("Hyundai")
-for x in cars:
-    # 3rd option
-    print(x, end=" ")
+#choice 1 
+print(*cars)
+#choice 2
+# print(" ".join(cars))
+#choice 3
+# for x in cars:
+#     # 3rd option
+#     print(x, end=" ")
 # 4th option
-print('\n', len(cars))
+print(len(cars))
